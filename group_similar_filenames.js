@@ -5,7 +5,8 @@
 const fs = require("node:fs")
 const path = require("node:path")
 
-const targetFolder = 'C:\\Program Files'
+// const targetFolder = 'C:\\Program Files'
+const targetFolder = 'E:\\github\\theme-cosy-miyoo-flip-stock\\skin'
 
 let amount = 0
 
@@ -95,12 +96,23 @@ function printFormat(nameGroups){
     console.log(`     GROUP: ${nameGroups.length}`)
     console.log('-----------------------------------')
     nameGroups.forEach((nameArray, index) => {
-        console.log(
-            String(index + 1),
-            `(${nameArray.length})`,
-        )
-        nameArray.forEach(name => {
-            console.log('\t\t',name)
-        })
+        // size > 1
+        if (nameArray.length > 1){
+            console.log(
+                String(index + 1),
+                `(${nameArray.length})`,
+            )
+            nameArray.forEach(name => {
+                console.log('\t\t',name)
+            })
+        }
+        // size === 1
+        else {
+            console.log(
+                String(index + 1),
+                `(${nameArray.length})\t\t`,
+                nameArray[0]
+            )
+        }
     })
 }

@@ -10,7 +10,7 @@
 ## Output
 
 ```bash
------------------------------------
+            -----------------------------------
      TOTAL: 156
      GROUP: 27
 -----------------------------------
@@ -18,7 +18,22 @@
                  icon-menu-right-arrow-24
                  icon-joystick-calibrate
                  icon-menu-left-arrow-24
-                 icon-language-48d4448
+                 icon-emulationstation
+                 icon-factory-reset-48
+                 icon-device-info-48
+                 icon-key-setting-48
+                 icon-right-arrow-24
+                 icon-wifi-connected
+                 icon-wifi-signal-01
+                 icon-wifi-signal-02
+                 icon-wifi-signal-03
+                 icon-wifi-signal-04
+                 icon-brightness-48
+                 icon-left-arrow-24
+                 icon-hotspot-wifi
+                 icon-setting-wifi
+                 icon-shift-active
+                 icon-language-48d
                  icon-usb-storage
                  icon-wifi-locked
                  icon-vibrate-48
@@ -153,34 +168,20 @@
 13 (2)
                  dot-a
                  dot-n
-14 (1)
-                 headphone-icon
-15 (1)
-                 thumb-default
-16 (1)
-                 miyoo-topbar
-17 (1)
-                 progress-dot
-18 (1)
-                 tips-bar-bg
-19 (1)
-                 background
-20 (1)
-                 preview-bg
-21 (1)
-                 num-bg
-22 (1)
-                 pop-bg
-23 (1)
-                 color
-24 (1)
-                 Empty
-25 (1)
-                 fixit
-26 (1)
-                 input
-27 (1)
-                 mask
+14 (1)           headphone-icon
+15 (1)           thumb-default
+16 (1)           miyoo-topbar
+17 (1)           progress-dot
+18 (1)           tips-bar-bg
+19 (1)           background
+20 (1)           preview-bg
+21 (1)           num-bg
+22 (1)           pop-bg
+23 (1)           color
+24 (1)           Empty
+25 (1)           fixit
+26 (1)           input
+27 (1)           mask
 
 
 ```
