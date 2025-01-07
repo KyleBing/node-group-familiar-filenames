@@ -13,6 +13,7 @@ fs.readdir(
     targetFolder,
     {
         withFileTypes: false,
+        recursive: false
     },
     (err, files) => {
         getSimilarFiles(files)
@@ -45,7 +46,10 @@ function getSimilarFiles(files) {
         similarFileArray.push(currentArray)
     }
 
+    similarFileArray.sort((a, b) => a.length > b.length ? -1 : 1)
+
     printFormat(similarFileArray)
+
 }
 
 function isFileSimilar(a,b){
