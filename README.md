@@ -1,12 +1,14 @@
-# 找出相似文件名
+# Group similar filenames
 
-找出目录中文件名相似的组合在一起
 
-## 使用说明
-1. 编辑 `group_similar_filenames.js` 中的 `targetFolder` 变量，改为你要操作的目录
-2. 执行 `node group_similar_filenames.js` 即可
+## Usage
+1. Edit variable `targetFolder` in file `group_similar_filenames.js`, change it to the folder path you want to operate at.
+2. Do
+    ```bash
+    node group_similar_filenames.js
+    ```
+## Output
 
-## 输出结果
 ```bash
 
 -----------------------------------
