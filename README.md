@@ -11,151 +11,176 @@
 
 ```bash
 -----------------------------------
-     TOTAL: 87
-     GROUP: 55
+     TOTAL: 156
+     GROUP: 27
 -----------------------------------
-1 (22)
-		 scoped_dir11924_1103314663
-		 scoped_dir15800_1133141080
-		 scoped_dir16044_1627421158
-		 scoped_dir16796_1968424546
-		 scoped_dir16912_1489204848
-		 scoped_dir10096_504516467
-		 scoped_dir13332_557416829
-		 scoped_dir14404_732788545
-		 scoped_dir15060_826427527
-		 scoped_dir16492_580741738
-		 scoped_dir16884_711201262
-		 scoped_dir17124_657204259
-		 scoped_dir2524_1536786134
-		 scoped_dir2732_1066851961
-		 scoped_dir3644_1512056807
-		 scoped_dir8476_1126523992
-		 scoped_dir8852_1782414030
-		 scoped_dir4752_129135549
-		 scoped_dir6768_962609730
-		 scoped_dir6972_609315359
-		 scoped_dir7620_149579213
-		 scoped_dir9720_519203232
-2 (9)
-		 Windows Defender Advanced Threat Protection
-		 Windows Multimedia Platform
-		 Windows Portable Devices
-		 Windows Media Player
-		 Windows Photo Viewer
-		 Windows Defender
-		 Windows Security
-		 Windows Sidebar
-		 Windows NT
-3 (3)
-		 msedge_url_fetcher_1584_1133760379
-		 msedge_url_fetcher_1584_804413934
-		 msedge_url_fetcher_736_1357382136
-4 (2)
-		 Microsoft SQL Server
-		 Microsoft Office
-5 (1)
-		 ModifiableWindowsApps
-6 (1)
-		 Uninstall Information
-7 (1)
-		 Application Verifier
-8 (1)
-		 Reference Assemblies
-9 (1)
-		 NVIDIA Corporation
-10 (1)
-		 Internet Explorer
-11 (1)
-		 WindowsPowerShell
-12 (1)
-		 Beyond Compare 4
-13 (1)
-		 chrome_installer
+1 (67)
+                 icon-menu-right-arrow-24
+                 icon-joystick-calibrate
+                 icon-menu-left-arrow-24
+                 icon-language-48d4448
+                 icon-usb-storage
+                 icon-wifi-locked
+                 icon-vibrate-48
+                 icon-character
+                 icon-folder-40
+                 icon-font-size
+                 icon-volume-00
+                 icon-volume-01
+                 icon-volume-02
+                 icon-volume-03
+                 icon-volume-04
+                 icon-volume-05
+                 icon-volume-06
+                 icon-volume-07
+                 icon-volume-08
+                 icon-volume-09
+                 icon-volume-10
+                 icon-volume-11
+                 icon-volume-12
+                 icon-volume-13
+                 icon-volume-14
+                 icon-volume-15
+                 icon-volume-16
+                 icon-volume-17
+                 icon-volume-18
+                 icon-volume-19
+                 icon-volume-20
+                 icon-Shutdown
+                 icon-game-40
+                 icon-trigger
+                 icon-delete
+                 icon-folder
+                 icon-shift
+                 icon-space
+                 icon-START
+                 icon-theme
+                 icon-A-54
+                 icon-B-54
+                 icon-core
+                 icon-game
+                 icon-abc
+                 icon-L2
+                 icon-OK
+                 icon-R2
+                 icon-TF
+                 icon-x
+                 icon-y
+2 (20)
+                 ic-power-charge-100%
+                 ic-power-charge-25%
+                 ic-power-charge-50%
+                 ic-power-charge-75%
+                 ic-power-charge-0%
+                 ic-favorite-mark
+                 ic-retroarch-f
+                 ic-retroarch-n
+                 ic-favorite-f
+                 ic-favorite-n
+                 ic-setting-f
+                 ic-setting-n
+                 ic-recent-f
+                 ic-recent-n
+                 ic-game-f
+                 ic-game-n
+                 ic-MENU+A
+                 ic-app-f
+                 ic-app-n
+                 ic-MENU
+3 (17)
+                 bg-keysetting-f
+                 bg-game-item-f
+                 bg-game-item-n
+                 bg-io-testing
+                 bg-keysetting
+                 bg-pop-menu-1
+                 bg-pop-menu-2
+                 bg-pop-menu-3
+                 bg-pop-menu-4
+                 bg-btn-01-f
+                 bg-btn-01-n
+                 bg-btn-02-f
+                 bg-btn-02-n
+                 bg-list-s2
+                 bg-list-l
+                 bg-list-s
+                 bg-title
+4 (6)
+                 app_loading_01
+                 app_loading_02
+                 app_loading_03
+                 app_loading_04
+                 app_loading_05
+                 app_loading_bg
+5 (5)
+                 menu-sub-title-bg
+                 menu-6line-bg
+                 menu-sub-bg 2
+                 menu-sub-bg
+                 menu-bg-7
+6 (5)
+                 power-full-icon
+                 power-20%-icon
+                 power-50%-icon
+                 power-80%-icon
+                 power-0%-icon
+7 (5)
+                 charging-01
+                 charging-02
+                 charging-03
+                 charging-04
+                 charging-05
+8 (4)
+                 joystick-test-dot2
+                 joystick-test-bg2
+                 joystick-test-dot
+                 joystick-test-bg
+9 (4)
+                 btn-delete
+                 btn-empty
+                 btn-shift
+                 btn-space
+10 (3)
+                 div-line-v-01
+                 div-line-v-02
+                 div-line-h
+11 (2)
+                 list-item-select-bg-short
+                 list-num
+12 (2)
+                 sound-mute-icon
+                 sound-icon
+13 (2)
+                 dot-a
+                 dot-n
 14 (1)
-		 idlefish_desktop
+                 headphone-icon
 15 (1)
-		 LogiOptionsPlus
+                 thumb-default
 16 (1)
-		 ArdfryImaging
+                 miyoo-topbar
 17 (1)
-		 Common Files
+                 progress-dot
 18 (1)
-		 OneCommander
+                 tips-bar-bg
 19 (1)
-		 foundertype
+                 background
 20 (1)
-		 MuMuVMMVbox
+                 preview-bg
 21 (1)
-		 PremiumSoft
+                 num-bg
 22 (1)
-		 WindowsApps
+                 pop-bg
 23 (1)
-		 AutoHotkey
+                 color
 24 (1)
-		 DiskGenius
+                 Empty
 25 (1)
-		 Everything
+                 fixit
 26 (1)
-		 PowerShell
+                 input
 27 (1)
-		 Microsoft
-28 (1)
-		 Notepad++
-29 (1)
-		 PowerToys
-30 (1)
-		 Wireshark
-31 (1)
-		 2345Soft
-32 (1)
-		 ApiPost7
-33 (1)
-		 Autodesk
-34 (1)
-		 Crashpad
-35 (1)
-		 Apipost
-36 (1)
-		 Bonjour
-37 (1)
-		 desktop
-38 (1)
-		 MSBuild
-39 (1)
-		 Tencent
-40 (1)
-		 dotnet
-41 (1)
-		 Google
-42 (1)
-		 nodejs
-43 (1)
-		 Speccy
-44 (1)
-		 webrec
-45 (1)
-		 Adobe
-46 (1)
-		 Intel
-47 (1)
-		 MySQL
-48 (1)
-		 Npcap
-49 (1)
-		 DIFX
-50 (1)
-		 Java
-51 (1)
-		 Logi
-52 (1)
-		 Oray
-53 (1)
-		 Git
-54 (1)
-		 Vim
-55 (1)
-		 PS
+                 mask
 
 
 ```
