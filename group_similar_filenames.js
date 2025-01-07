@@ -15,12 +15,12 @@ fs.readdir(
         withFileTypes: false,
     },
     (err, files) => {
-        getFamiliarFiles(files)
+        getSimilarFiles(files)
     })
 
-function getFamiliarFiles(files) {
+function getSimilarFiles(files) {
     amount = files.length
-    let familiarFileArray = []
+    let similarFileArray = []
 
     let sortedPureFileNames = files.map(file => {
         return path.basename(file, path.extname(file))  // 获取到纯文件名，without 后缀名
@@ -33,7 +33,7 @@ function getFamiliarFiles(files) {
         for (let j = i + 1; j < sortedPureFileNames.length; j++) {
             let innerName = sortedPureFileNames[j]
 
-            if (isFileFamiliar(outName,innerName)) {
+            if (isFileSimilar(outName,innerName)) {
                 // console.log(outName, innerName, j, '✓')
                 currentArray.push(innerName)
                 sortedPureFileNames.splice(j, 1)
@@ -42,45 +42,45 @@ function getFamiliarFiles(files) {
                 // console.log(outName, innerName, j)
             }
         }
-        familiarFileArray.push(currentArray)
+        similarFileArray.push(currentArray)
     }
 
-    printFormat(familiarFileArray)
+    printFormat(similarFileArray)
 }
 
-function isFileFamiliar(a,b){
+function isFileSimilar(a,b){
     // RULE 1: 除去数字之后，剩余部分相同
     let aAfterReplace = a.replace(/\d/g, '')
     let bAfterReplace = b.replace(/\d/g, '')
 
-    let familiarWithoutDigit = aAfterReplace === bAfterReplace
+    let similarWithoutDigit = aAfterReplace === bAfterReplace
 
 
     // RULE 2: 前一个单词相同：空格
     let aFirstWordSpace = a.substring(0, a.indexOf(' '))
     let bFirstWordSpace = b.substring(0, b.indexOf(' '))
 
-    let familiarWithFirstWord = aFirstWordSpace !== '' && aFirstWordSpace === bFirstWordSpace
+    let similarWithFirstWord = aFirstWordSpace !== '' && aFirstWordSpace === bFirstWordSpace
 
 
     // RULE 3: 前一个单词相同：_
     let aFirstWord_ = a.substring(0, a.indexOf('_'))
     let bFirstWord_ = b.substring(0, b.indexOf('_'))
 
-    let familiarWithFirstWord_ = aFirstWord_ !== '' && aFirstWord_ === bFirstWord_
+    let similarWithFirstWord_ = aFirstWord_ !== '' && aFirstWord_ === bFirstWord_
 
 
     // RULE 4: 前一个单词相同：__
     let aFirstWord__ = a.substring(0, a.indexOf('-'))
     let bFirstWord__ = b.substring(0, b.indexOf('-'))
 
-    let familiarWithFirstWord__ = aFirstWord__ !== '' && aFirstWord__ === bFirstWord__
+    let similarWithFirstWord__ = aFirstWord__ !== '' && aFirstWord__ === bFirstWord__
 
 
-    return familiarWithoutDigit ||
-        familiarWithFirstWord ||
-        familiarWithFirstWord_ ||
-        familiarWithFirstWord__
+    return similarWithoutDigit ||
+        similarWithFirstWord ||
+        similarWithFirstWord_ ||
+        similarWithFirstWord__
 }
 
 

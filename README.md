@@ -3,8 +3,8 @@
 找出目录中文件名相似的组合在一起
 
 ## 使用说明
-1. 编辑 `group_familiar_filenames.js` 中的 `targetFolder` 变量，改为你要操作的目录
-2. 执行 `node group_familiar_filenames.js` 即可
+1. 编辑 `group_similar_filenames.js` 中的 `targetFolder` 变量，改为你要操作的目录
+2. 执行 `node group_similar_filenames.js` 即可
 
 ## 输出结果
 ```bash
