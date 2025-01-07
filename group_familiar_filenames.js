@@ -5,12 +5,12 @@
 const fs = require("node:fs")
 const path = require("node:path")
 
-const testFolder = 'C:\\Program Files'
+const targetFolder = 'C:\\Program Files'
 
 let amount = 0
 
 fs.readdir(
-    testFolder,
+    targetFolder,
     {
         withFileTypes: false,
     },
