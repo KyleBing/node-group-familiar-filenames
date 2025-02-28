@@ -1,12 +1,15 @@
 /**
  * 所选目录下所有相似文件名分组显示
  */
-
 const fs = require("node:fs")
 const path = require("node:path")
 
-// const targetFolder = 'C:\\Program Files'
-const targetFolder = 'E:\\github\\theme-cosy-miyoo-flip-stock\\skin'
+if (!process.argv[2]){
+    console.log('Please choose a folder to apply on:')
+    return
+} else {
+    targetFolder = process.argv[2]
+}
 
 let amount = 0
 

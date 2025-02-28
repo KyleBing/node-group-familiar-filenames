@@ -2,11 +2,9 @@
 
 
 ## Usage
-1. Edit variable `targetFolder` in file `group_similar_filenames.js`, change it to the folder path you want to operate at.
-2. Do
-    ```bash
-    node group_similar_filenames.js
-    ```
+```shell
+node group_similar_filenames folder_path
+```
 ## Output
 
 ```bash
